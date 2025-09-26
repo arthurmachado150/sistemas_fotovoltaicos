@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(250, 162, 31);
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+nav a{
+    margin-right: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(223, 116, 15);
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+a:active{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(223, 116, 15);
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+.conversao_de_energia_solar{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.intelbras{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.modulo_585b{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.modulo_605b{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.jinko{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.tiger_pro_mono{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.tiger_pro_bi{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.estrutura_de_fixacao{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.imgens_placas_solares img{
+    border-radius: 10px;
+    border: black 3px solid;
+}
+
+.filial iframe{
+    border-radius: 14px;
+    border: black 3px solid;
+}
+
+.video_energia_fotovoltaica iframe{
+    border-radius: 14px;
+    border: black 3px solid;
+}
+
+.vídeo_energia_fotovolt{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.filial_intelbras{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
