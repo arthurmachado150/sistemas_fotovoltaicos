@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/calcular.js"defer></script>
+    <title>Cálculo de quantidade de placas solares necessárias para determinado valor de kWh/mês desejado</title>
+</head>
+<body class="calculadora_style">
+    <header>
+        <nav>
+            <a href="../index.html">Principal</a>
+            <a href="./energia_fotovoltaica.html">Energia Fotovoltaica</a>
+            <a href="./placas_solares_intelbras_e_jinko.html">Placas solares</a>
+            <a href="./aplicação_de_componentes_do_sistema.html">Componentes</a>
+            <a href="./irradiação_solar.html">Irradiação Solar</a>
+            <a href="./calculadora_placas_solares_kwh_mes.html">Calculadora</a>
+            <a href="./conclusao.html">Conclusão</a>
+            <a href="./referencias.html">Referências</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="h1">Cálculo de quantidade de placas solares necessárias para determinado valor de kWh/mês desejado</h1>
+        <br>
+        <label for="kWh_mes_desejada">Dijite quantos kWh/mês você deseja ter:</label><br>
+        <input type="number" id="kWh_mes_desejada"><br><br>
+        
+        <button onclick="principal()">calcular</button><br><br>
+        <div id="resposta"></div>
+        <br><br>
+    </main>
+    <footer>
+        by Arthur Furtado Machado &copy; &trade;
+    </footer>
+</body>
+</html>
